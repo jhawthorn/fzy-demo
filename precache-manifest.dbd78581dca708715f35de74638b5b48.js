@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/fzy-demo/static/js/runtime~main.89836e3a.js"
   },
   {
-    "revision": "e8cfa008907f9a43ad31",
-    "url": "/fzy-demo/static/js/main.e8cfa008.chunk.js"
+    "revision": "d4d56251f53ee1d42678",
+    "url": "/fzy-demo/static/js/main.d4d56251.chunk.js"
   },
   {
     "revision": "b7cee7d5671d284f931f",
     "url": "/fzy-demo/static/js/1.b7cee7d5.chunk.js"
   },
   {
-    "revision": "e8cfa008907f9a43ad31",
+    "revision": "d4d56251f53ee1d42678",
     "url": "/fzy-demo/static/css/main.effa1c8a.chunk.css"
   },
   {
-    "revision": "098c1ed7ba25cd110b9e2a2628175469",
+    "revision": "63d876d806de4ccb34d90368994feb40",
     "url": "/fzy-demo/index.html"
   }
 ];
