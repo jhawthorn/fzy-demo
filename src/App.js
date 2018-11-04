@@ -2,23 +2,39 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+class Results extends Component {
+  render() {
+    return (
+      <ul class="App-results">
+        <li>{this.props.query}</li>
+      </ul>
+    )
+  }
+}
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {query: 'test'};
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({query: event.target.value});
+  }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src="http://i.hawth.ca/u/fzy.svg" className="App-logo" alt="logo" />
+          <div class="App-ui">
+            <div class="App-prompt">
+              <span>&gt;&nbsp;</span><input type="text" class="App-input" value={this.state.query} onChange={this.handleChange} />
+            </div>
+            <Results query={this.state.query} />
+          </div>
         </header>
       </div>
     );
