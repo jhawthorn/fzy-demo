@@ -3,6 +3,10 @@ import './App.css';
 
 import rails_files from './rails_files.txt';
 
+import { score } from 'fzy.js';
+
+import { sortBy } from 'lodash';
+
 function filterResults(data, query) {
   var regex = new RegExp(query.split('').join('.*'));
 
@@ -10,7 +14,9 @@ function filterResults(data, query) {
 
   results = results.filter((x) => x.match(regex));
 
-  results = results.slice(0,10);
+  results = sortBy(results, (x) => -score(query, x));
+
+  results = results.slice(0,15);
 
   return results.map((x) => <li>{x}</li>);
 }
