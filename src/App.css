@@ -20,6 +20,7 @@
   width: 50vw;
   background: black;
   color: white;
+  overflow: hidden;
 
   font-family: monospace;
   font-size: calc(10px + 2vmin);
