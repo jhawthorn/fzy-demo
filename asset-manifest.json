@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.43b688c7.chunk.css",
-  "main.js": "/static/js/main.19787af7.chunk.js",
-  "main.js.map": "/static/js/main.19787af7.chunk.js.map",
-  "static/js/1.6f6c9852.chunk.js": "/static/js/1.6f6c9852.chunk.js",
-  "static/js/1.6f6c9852.chunk.js.map": "/static/js/1.6f6c9852.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/rails_files.txt": "/static/media/rails_files.2e9932a7.txt",
-  "static/css/main.43b688c7.chunk.css.map": "/static/css/main.43b688c7.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.04842edd9c3adb35bd78552ebd8744b6.js": "/precache-manifest.04842edd9c3adb35bd78552ebd8744b6.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/fzy-demo/static/css/main.43b688c7.chunk.css",
+  "main.js": "/fzy-demo/static/js/main.e37e6800.chunk.js",
+  "main.js.map": "/fzy-demo/static/js/main.e37e6800.chunk.js.map",
+  "static/js/1.6f6c9852.chunk.js": "/fzy-demo/static/js/1.6f6c9852.chunk.js",
+  "static/js/1.6f6c9852.chunk.js.map": "/fzy-demo/static/js/1.6f6c9852.chunk.js.map",
+  "runtime~main.js": "/fzy-demo/static/js/runtime~main.89836e3a.js",
+  "runtime~main.js.map": "/fzy-demo/static/js/runtime~main.89836e3a.js.map",
+  "static/media/rails_files.txt": "/fzy-demo/static/media/rails_files.2e9932a7.txt",
+  "static/css/main.43b688c7.chunk.css.map": "/fzy-demo/static/css/main.43b688c7.chunk.css.map",
+  "index.html": "/fzy-demo/index.html",
+  "precache-manifest.b751d0dec076e8910d4bbb16647054f0.js": "/fzy-demo/precache-manifest.b751d0dec076e8910d4bbb16647054f0.js",
+  "service-worker.js": "/fzy-demo/service-worker.js"
 }
