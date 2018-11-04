@@ -49,9 +49,13 @@ class Results extends Component {
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {query: 'test'};
+    this.state = {query: 'arbase.rb'};
 
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  componentDidMount(){
+    this.input.focus();
   }
 
   handleChange(event) {
@@ -65,7 +69,7 @@ class App extends Component {
           <img src="http://i.hawth.ca/u/fzy.svg" className="App-logo" alt="logo" />
           <div className="App-ui">
             <div className="App-prompt">
-              <span>&gt;&nbsp;</span><input type="text" className="App-input" value={this.state.query} onChange={this.handleChange} />
+              <span>&gt;&nbsp;</span><input type="text" className="App-input" value={this.state.query} onChange={this.handleChange} ref={(input) => { this.input = input; }} />
             </div>
             <Results query={this.state.query} />
           </div>
