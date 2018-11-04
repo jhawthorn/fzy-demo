@@ -1,7 +1,7 @@
 {
   "main.css": "/fzy-demo/static/css/main.e4274abd.chunk.css",
-  "main.js": "/fzy-demo/static/js/main.876fb131.chunk.js",
-  "main.js.map": "/fzy-demo/static/js/main.876fb131.chunk.js.map",
+  "main.js": "/fzy-demo/static/js/main.b15f89a1.chunk.js",
+  "main.js.map": "/fzy-demo/static/js/main.b15f89a1.chunk.js.map",
   "static/js/1.b8088eca.chunk.js": "/fzy-demo/static/js/1.b8088eca.chunk.js",
   "static/js/1.b8088eca.chunk.js.map": "/fzy-demo/static/js/1.b8088eca.chunk.js.map",
   "runtime~main.js": "/fzy-demo/static/js/runtime~main.89836e3a.js",
@@ -9,6 +9,6 @@
   "static/media/rails_files.txt": "/fzy-demo/static/media/rails_files.2e9932a7.txt",
   "static/css/main.e4274abd.chunk.css.map": "/fzy-demo/static/css/main.e4274abd.chunk.css.map",
   "index.html": "/fzy-demo/index.html",
-  "precache-manifest.a0763b9feb1079dde0ee5ddafdd6957c.js": "/fzy-demo/precache-manifest.a0763b9feb1079dde0ee5ddafdd6957c.js",
+  "precache-manifest.e92ba78b698f5044aa35de731f53bd44.js": "/fzy-demo/precache-manifest.e92ba78b698f5044aa35de731f53bd44.js",
   "service-worker.js": "/fzy-demo/service-worker.js"
 }
