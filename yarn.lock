@@ -3391,6 +3391,10 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
 
+fzy.js@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/fzy.js/-/fzy.js-0.1.0.tgz#22ed1a2f37723c679d9f7231234988292861c9e4"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
