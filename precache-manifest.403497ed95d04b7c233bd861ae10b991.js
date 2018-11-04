@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/fzy-demo/static/css/main.43b688c7.chunk.css"
   },
   {
-    "revision": "45ce8554adf6ba2498d43d5df851ce1d",
+    "revision": "e0e138410f5e878640177fae8a14eae4",
     "url": "/fzy-demo/index.html"
   }
 ];
