@@ -68,10 +68,12 @@ class App extends Component {
         <header className="App-header">
           <img src="http://i.hawth.ca/u/fzy.svg" className="App-logo" alt="logo" />
           <div className="App-ui">
-            <div className="App-prompt">
-              <span>&gt;&nbsp;</span><input type="text" className="App-input" value={this.state.query} onChange={this.handleChange} ref={(input) => { this.input = input; }} />
+            <div className="App-ui-text">
+              <div className="App-prompt">
+                <span>&gt;&nbsp;</span><input type="text" className="App-input" value={this.state.query} onChange={this.handleChange} ref={(input) => { this.input = input; }} />
+              </div>
+              <Results query={this.state.query} />
             </div>
-            <Results query={this.state.query} />
           </div>
         </header>
       </div>
