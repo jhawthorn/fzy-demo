@@ -66,7 +66,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="http://i.hawth.ca/u/fzy.svg" className="App-logo" alt="logo" />
+          <img src="https://i.hawth.ca/u/fzy.svg" className="App-logo" alt="logo" />
           <div className="App-ui">
             <div className="App-ui-text">
               <div className="App-prompt">
