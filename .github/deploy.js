@@ -26,6 +26,5 @@ ghpages.publish('build', {
   user: {
     name: 'John Hawthorn',
     email: 'john@hawthorn.email'
-  },
-  silent: true
+  }
 }, callback);
