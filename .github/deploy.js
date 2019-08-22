@@ -22,7 +22,7 @@ if (!GH_REPO) {
 }
 
 ghpages.publish('build', {
-  repo: 'https://' + GH_TOKEN + '@github.com/' + GH_REPO + '.git',
+  repo: 'https://x-access-token:' + GH_TOKEN + '@github.com/' + GH_REPO + '.git',
   user: {
     name: 'John Hawthorn',
     email: 'john@hawthorn.email'
