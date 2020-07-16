@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "fzy.js": "^0.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.1"
